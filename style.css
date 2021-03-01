@@ -1,0 +1,81 @@
+body{
+    background: url('http://i.stack.imgur.com/jGlzr.png') repeat-x 0 0 scroll;
+    background-color:#0C0C0C;
+    height:100%;
+    width:100%;
+    
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+
+}
+.between{
+    text-align: right;
+    margin-right: 60px;
+    top: 50px;
+    text-decoration: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.again{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.guess{
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 20px;
+   width: 160px;
+   height:40px;
+   font-size: 40px;
+   font-weight: normal;
+   text-align: center;
+   cursor: pointer;
+
+}
+.check{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width:60px;
+    height:25px;
+}
+.number {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: Cambria;
+}
+.message{
+   display:block;
+   text-align: center;
+   font-size: 25px;
+   font-weight:900;
+}
+.label-score{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+}
+.label-highscore{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+    margin-top: 50px;
+}
